@@ -1,2 +1,5 @@
+# Repositório destinado aos desafios propostos pela DIO.
 
-algo
+## 💻 Desafios concluídos
+- 1
+- 2
