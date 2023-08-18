@@ -23,23 +23,33 @@ Escolha uma das Opções
 # Inicio do programa
 print("""
 Bem-vindo ao nosso novo sistema bancário""")
-
 while True:
     # Estrutura condicional das funções do sistema
     opcao = input(menu).lstrip().lower()
 
     # Condição para a função "Depositar"
     if opcao[0] == "d":
-        print(opcao)
+
+        deposito = float(input("Quanto deseja depositar? =>R$ "))
+
+        if deposito > 0:
+
+            saldo += deposito
+            extrato += f"Depósito realizado de R${deposito:,.2f}" + "\n"
+        else: 
+            print("Valor incorreto, tente novamente...")
 
     # Condição para a função "Visulizar extrato"    
     elif opcao[0] == "e":
-        print(opcao)
+        print(f"""
+------------------------------
+{extrato}------------------------------
+Saldo na conta: R${saldo:,.2f}""")
     
     # Condição para a função "Sacar"
     elif opcao[0] == "s":
         print(opcao)
-        
+
     # Condição para sair do programa
     elif opcao[0] == "q": 
         break
