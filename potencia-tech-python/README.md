@@ -1,7 +1,7 @@
 # Repositório para os desáfios do bootcamp Potência Tech powered by iFood | Ciência de Dados 
 
 
-## 💪💻 Desafios  do Bootcamp
+## 💪💻 Desafios de projeto do Bootcamp
 > 1. [Criando um sistema bancário com Python](https://github.com/HiroNi9/desafios-dio/blob/main/potencia-tech-python/sistema-bancario-v1.py)
 > > ### Descrição do desafio
 > > > Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato. Essa versão trabalhara somente com 1 usuário.
