@@ -31,4 +31,4 @@ O relatório foi projetado com funcionalidades interativas, incluindo:
 
 O término do projeto foi constituido na postagem do relatório no Power BI Service e concluido salvando no repositório do GitHub.
 
-![Captura do PBIService](postagem-pbiservice.png)
+![Captura do PBIService](publicacao-pbiservice.png)
